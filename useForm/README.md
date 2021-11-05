@@ -1,5 +1,5 @@
 * Example in javascript
-
+```
     const initialForm={
         name:'',
         age:0,
@@ -7,5 +7,5 @@
       
     };
     
-    const [formValues,handleInputChange,reset]=useForm(initialForm);
+    const [formValues,handleInputChange,reset]=useForm(initialForm);```
  
