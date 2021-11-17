@@ -1,5 +1,5 @@
 import {useState} from "react";
-
+// this is a counter
 export const useCounter=(estado:number)=>{
     const [state,setState]=useState<number>(estado);
     const increment=(factor:number)=>{
